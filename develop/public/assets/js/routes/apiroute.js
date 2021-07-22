@@ -8,7 +8,9 @@ router.get("/notes",(req,res)=>{
 router.post("/notes",(req,res)=>{
 
 });
-router.delete()
+router.delete("/",(req,res)=>{
+
+});
 
 
 
