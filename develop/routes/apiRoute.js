@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const store = require('../../../../db/store');
+const store = require('../db/store');
 
 
 router.get("/notes",(req,res)=>{
