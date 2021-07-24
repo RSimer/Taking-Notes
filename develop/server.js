@@ -9,8 +9,10 @@ app.use(express.json());
 
 app.use(express.static('public'));
 
-app.use("/",htmlRoute);
+
 app.use("/api",apiRoute);
+app.use("/",htmlRoute);
+
 
 
 
