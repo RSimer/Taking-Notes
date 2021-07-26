@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const store = require('../db/store');
 
-
+// get
 router.get("/notes",(req,res)=>{
  store.getNotes()
  .then((notes) =>{
@@ -12,7 +12,7 @@ router.get("/notes",(req,res)=>{
 .catch((err)=>res.status(500).json(err));
 });
 
-
+// post
 router.post("/notes",(req,res)=>{
 store.addNote(req.body)
 .then((note) =>
