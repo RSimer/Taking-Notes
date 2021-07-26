@@ -1,6 +1,6 @@
 # Taking-Notes
 
-click here  for the viewing of the video!
+click here https://drive.google.com/file/d/159lE4p7yBr1Fwu12wQMjm41S304ef2l0/view for the viewing of the video!
 
 ## Description
 
